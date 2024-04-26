@@ -1,0 +1,400 @@
+body{
+    background-color: #fffefe;
+    height:100%;
+    width:100%;
+
+}
+
+
+.head{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 50px;
+    width:100%;
+    
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    text-wrap: wrap;
+    
+  }
+  
+  .logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px;
+  }
+  
+  .nav a:hover {
+    background-color: #ddd;
+  }
+  
+.video-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    margin-bottom: 40vh;
+}
+  
+#backgroundVideo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+
+  .text-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+  }
+  
+  .text-overlay h1 {
+    font-size: 3em;
+    margin-bottom: 1em;
+  }
+  
+  .text-overlay p {
+    font-size: 1.5em;
+  }
+  
+
+
+  #aria {
+    width: 98%;
+    text-align: center;
+    padding-bottom: 20px;
+    justify-content: center;
+    font-size: 1.8em;
+    margin-bottom: 100px;
+    font-weight: bolder;
+    margin:15px;
+    text-align: center;
+  }
+  
+  #aria p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    font-size: 1em;
+    color:#080808;
+  }
+
+  #aria h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    color:#080808;
+    text-decoration-line: underline;
+
+  }
+  #aria h3{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    color:#c028e6;
+    text-decoration: dashed;
+  }
+
+
+  #story{
+    margin-bottom: 30vh;
+    margin-top: 30vh;
+    justify-content: center;
+    text-decoration-line: underline;
+  }
+
+  #story h1{
+    color:#04030a;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.8em;
+
+  }
+
+  #Rain{
+    background-image: url("imagess/rainn.png");
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    color:#fdfcfc;
+    text-align: center;
+    margin-bottom: 30vh;
+    border: 20px solid #04030a;
+  }
+
+  #Rain h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+
+  #Rain p {
+    line-height: 1.5;
+    margin-bottom: 40px;
+    font-size: 1.5em;
+    padding-left: 10vh;
+    padding-right: 10vh;
+  }
+
+
+  #Summer{
+    background-image: url("imagess/summer.png");
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    color: #fdfcfc;
+    text-align: center;
+    margin-bottom: 30vh;
+    border: 20px solid #04030a;
+  }
+
+  #Summer h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+
+  #Summer p {
+    line-height: 1.5;
+    margin-bottom: 40px;
+    font-size: 1.5em;
+    text-shadow: #0e0b0b;
+    padding-left: 10vh;
+    padding-right: 10vh;
+
+  }
+
+
+
+  #Winter{
+    background-image: url("imagess/winn.png");
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    color: #fdfcfc;
+    text-align: center;
+    margin-bottom: 30vh;
+    border: 20px solid #04030a;
+  }
+
+  #Winter h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+
+  #Winter p {
+    line-height: 1.5;
+    margin-bottom: 40px;
+    font-size: 1.5em;
+    padding-left: 10vh;
+    padding-right: 10vh;
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#upper {
+    background-image: url(imagess/weather01.jpg);
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 130vh;
+    width:100%;
+    border: 2px solid rgb(8, 8, 8);
+    margin-bottom: 40vh;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    margin-top: 40vh;
+}
+
+#weather-container {
+    background: rgba(255, 255, 255, 0.2);
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+    overflow:hidden;
+
+}
+
+h2, label, p {
+    color: #fff;
+    margin: 8px 0;
+}
+
+input {
+    width: 600px;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin-top: 20px;
+}
+
+button {
+    background: #414349;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100px;
+    font-size: 15px;
+}
+
+button:hover {
+    background: #04030a;
+}
+
+#temp-div p {
+    font-size: 60px;
+    margin-top: -30px;
+}
+
+#weather-info {
+    font-size: 20px;
+}
+
+#weather-icon {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 10px; 
+    margin-bottom: 0;
+    display: none;
+}
+
+#hourly-forecast {
+    margin-top: 50px;
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hourly-item {
+    flex: 0 0 auto;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+    color: white;
+}
+
+.hourly-item img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+#hourly-heading {
+    color: #fff;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#contact-footer {
+    background-color: #f1f1f1;
+    color: rgb(10, 0, 0);
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px; 
+    height:20vh;
+    margin : 0 auto;
+    padding-top: 50px;
+  }
+  
+  .social-media,
+  .contact-info,
+  .whatsapp {
+    display: inline-block; 
+    margin: 0 10px;
+  }
+  
+  .social-media img,
+  .whatsapp img {
+    height: 30px;
+    margin-right: 5px; 
+  }
+  
+  .whatsapp span {
+    vertical-align: middle; 
+  }
+  
+  .contact-info a {
+    text-decoration: none; 
+    color: rgb(15, 0, 0);
+  }
+  .hi{color:#080808;}
+  
